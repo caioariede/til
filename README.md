@@ -1,5 +1,7 @@
 # Today I learned...
 
+These are small but useful things I learn in my day-to-day. :)
+
 ## Python
 
-* [open(<unicode>) will raise UnicodeEncodeError if the file name contains unicode characters and LC\_ALL isn't properly set](python/open-unicodeencodeerror.md)
+* [`open(u'únícódé')` will raise `UnicodeEncodeError` if filesystem encoding is not set to unicode](python/open-unicodeencodeerror.md)
